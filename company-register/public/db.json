@@ -1,0 +1,504 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "companyName": "Innova Technologies",
+      "location": "Copenhagen, Denmark",
+      "companySize": "11-50",
+      "category": "product",
+      "industry": "Finance",
+      "establishedYear": 2001,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 2,
+      "companyName": "Eco Systems",
+      "location": "Rome, Italy",
+      "companySize": "11-50",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 1990,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 3,
+      "companyName": "Vertex Ventures",
+      "location": "Prague, Czech Republic",
+      "companySize": "1-10",
+      "category": "service",
+      "industry": "Healthcare",
+      "establishedYear": 2008,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 4,
+      "companyName": "Neural Analytics",
+      "location": "Seattle, USA",
+      "companySize": "51-200",
+      "category": "service",
+      "industry": "Finance",
+      "establishedYear": 1998,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 5,
+      "companyName": "Vertex Solutions",
+      "location": "Chicago, USA",
+      "companySize": "1-10",
+      "category": "product",
+      "industry": "Finance",
+      "establishedYear": 1998,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 6,
+      "companyName": "Innova Solutions",
+      "location": "San Francisco, USA",
+      "companySize": "51-200",
+      "category": "product",
+      "industry": "Healthcare",
+      "establishedYear": 1999,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 7,
+      "companyName": "Fusion Group",
+      "location": "Warsaw, Poland",
+      "companySize": "201-500",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 2015,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 8,
+      "companyName": "Eco Ventures",
+      "location": "San Francisco, USA",
+      "companySize": "1-10",
+      "category": "startup",
+      "industry": "Healthcare",
+      "establishedYear": 2018,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 9,
+      "companyName": "BluePeak Networks",
+      "location": "Warsaw, Poland",
+      "companySize": "201-500",
+      "category": "service",
+      "industry": "Education",
+      "establishedYear": 2008,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 10,
+      "companyName": "Health Systems",
+      "location": "Bangalore, India",
+      "companySize": "1001-5000",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 2013,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 11,
+      "companyName": "Globe Systems",
+      "location": "Rome, Italy",
+      "companySize": "51-200",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 2018,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 12,
+      "companyName": "Prime Labs",
+      "location": "Paris, France",
+      "companySize": "1-10",
+      "category": "product",
+      "industry": "Finance",
+      "establishedYear": 2021,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 13,
+      "companyName": "Meta Analytics",
+      "location": "Seattle, USA",
+      "companySize": "501-1000",
+      "category": "service",
+      "industry": "Healthcare",
+      "establishedYear": 2010,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 14,
+      "companyName": "BluePeak Solutions",
+      "location": "Los Angeles, USA",
+      "companySize": "501-1000",
+      "category": "product",
+      "industry": "Technology",
+      "establishedYear": 2007,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 15,
+      "companyName": "Fusion Networks",
+      "location": "Paris, France",
+      "companySize": "11-50",
+      "category": "product",
+      "industry": "Finance",
+      "establishedYear": 1996,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 16,
+      "companyName": "Core Group",
+      "location": "Cape Town, South Africa",
+      "companySize": "501-1000",
+      "category": "service",
+      "industry": "Education",
+      "establishedYear": 2009,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 17,
+      "companyName": "Innova Networks",
+      "location": "Toronto, Canada",
+      "companySize": "11-50",
+      "category": "product",
+      "industry": "Finance",
+      "establishedYear": 2001,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 18,
+      "companyName": "Neural Labs",
+      "location": "Lisbon, Portugal",
+      "companySize": "11-50",
+      "category": "startup",
+      "industry": "Finance",
+      "establishedYear": 2017,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 19,
+      "companyName": "Quantum Ventures",
+      "location": "Vancouver, Canada",
+      "companySize": "501-1000",
+      "category": "service",
+      "industry": "Technology",
+      "establishedYear": 2003,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 20,
+      "companyName": "Delta Partners",
+      "location": "New York, USA",
+      "companySize": "1001-5000",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 2021,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 21,
+      "companyName": "Delta Global",
+      "location": "Paris, France",
+      "companySize": "11-50",
+      "category": "service",
+      "industry": "Education",
+      "establishedYear": 2023,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 22,
+      "companyName": "Fin Networks",
+      "location": "Dubai, UAE",
+      "companySize": "1-10",
+      "category": "product",
+      "industry": "Technology",
+      "establishedYear": 2010,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 23,
+      "companyName": "Globe Ventures",
+      "location": "Stockholm, Sweden",
+      "companySize": "1-10",
+      "category": "service",
+      "industry": "Healthcare",
+      "establishedYear": 2006,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 24,
+      "companyName": "Quantum Partners",
+      "location": "Cape Town, South Africa",
+      "companySize": "11-50",
+      "category": "service",
+      "industry": "Education",
+      "establishedYear": 2001,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 25,
+      "companyName": "Apex Networks",
+      "location": "Chicago, USA",
+      "companySize": "51-200",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 2007,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 26,
+      "companyName": "Sky Analytics",
+      "location": "San Francisco, USA",
+      "companySize": "51-200",
+      "category": "startup",
+      "industry": "Finance",
+      "establishedYear": 2016,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 27,
+      "companyName": "Apex Solutions",
+      "location": "Cape Town, South Africa",
+      "companySize": "201-500",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 2021,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 28,
+      "companyName": "Fusion Networks",
+      "location": "Melbourne, Australia",
+      "companySize": "11-50",
+      "category": "startup",
+      "industry": "Healthcare",
+      "establishedYear": 2000,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 29,
+      "companyName": "Neural Solutions",
+      "location": "Oslo, Norway",
+      "companySize": "501-1000",
+      "category": "service",
+      "industry": "Technology",
+      "establishedYear": 2003,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 30,
+      "companyName": "Quantum Global",
+      "location": "London, UK",
+      "companySize": "1-10",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 2010,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 31,
+      "companyName": "Sky Solutions",
+      "location": "Vancouver, Canada",
+      "companySize": "1-10",
+      "category": "startup",
+      "industry": "Education",
+      "establishedYear": 2015,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 32,
+      "companyName": "Core Solutions",
+      "location": "Dubai, UAE",
+      "companySize": "51-200",
+      "category": "startup",
+      "industry": "Finance",
+      "establishedYear": 2002,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 33,
+      "companyName": "Quantum Technologies",
+      "location": "Seattle, USA",
+      "companySize": "51-200",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 1996,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 34,
+      "companyName": "Quantum Group",
+      "location": "Melbourne, Australia",
+      "companySize": "201-500",
+      "category": "product",
+      "industry": "Healthcare",
+      "establishedYear": 2003,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 35,
+      "companyName": "Sky Systems",
+      "location": "London, UK",
+      "companySize": "51-200",
+      "category": "startup",
+      "industry": "Healthcare",
+      "establishedYear": 1993,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 36,
+      "companyName": "Health Networks",
+      "location": "Vancouver, Canada",
+      "companySize": "201-500",
+      "category": "product",
+      "industry": "Technology",
+      "establishedYear": 2014,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 37,
+      "companyName": "Delta Labs",
+      "location": "Boston, USA",
+      "companySize": "1001-5000",
+      "category": "startup",
+      "industry": "Education",
+      "establishedYear": 2012,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 38,
+      "companyName": "Delta Technologies",
+      "location": "Dublin, Ireland",
+      "companySize": "51-200",
+      "category": "startup",
+      "industry": "Healthcare",
+      "establishedYear": 1993,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 39,
+      "companyName": "Vertex Group",
+      "location": "Singapore",
+      "companySize": "11-50",
+      "category": "service",
+      "industry": "Finance",
+      "establishedYear": 1994,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 40,
+      "companyName": "Fusion Networks",
+      "location": "Madrid, Spain",
+      "companySize": "1-10",
+      "category": "product",
+      "industry": "Technology",
+      "establishedYear": 2018,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 41,
+      "companyName": "Next Ventures",
+      "location": "Madrid, Spain",
+      "companySize": "201-500",
+      "category": "startup",
+      "industry": "Technology",
+      "establishedYear": 1993,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 42,
+      "companyName": "Innova Technologies",
+      "location": "Paris, France",
+      "companySize": "201-500",
+      "category": "product",
+      "industry": "Education",
+      "establishedYear": 2007,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 43,
+      "companyName": "Fusion Ventures",
+      "location": "Zurich, Switzerland",
+      "companySize": "501-1000",
+      "category": "service",
+      "industry": "Education",
+      "establishedYear": 2014,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 44,
+      "companyName": "Apex Analytics",
+      "location": "Cape Town, South Africa",
+      "companySize": "1-10",
+      "category": "product",
+      "industry": "Finance",
+      "establishedYear": 2021,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 45,
+      "companyName": "Fusion Networks",
+      "location": "Tokyo, Japan",
+      "companySize": "501-1000",
+      "category": "product",
+      "industry": "Technology",
+      "establishedYear": 2022,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 46,
+      "companyName": "Fusion Global",
+      "location": "Stockholm, Sweden",
+      "companySize": "501-1000",
+      "category": "startup",
+      "industry": "Technology",
+      "establishedYear": 1990,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 47,
+      "companyName": "Globe Technologies",
+      "location": "Tokyo, Japan",
+      "companySize": "11-50",
+      "category": "service",
+      "industry": "Education",
+      "establishedYear": 2020,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 48,
+      "companyName": "Apex Partners",
+      "location": "Vancouver, Canada",
+      "companySize": "51-200",
+      "category": "service",
+      "industry": "Healthcare",
+      "establishedYear": 2019,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 49,
+      "companyName": "Delta Systems",
+      "location": "Melbourne, Australia",
+      "companySize": "11-50",
+      "category": "startup",
+      "industry": "Finance",
+      "establishedYear": 2021,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    },
+    {
+      "id": 50,
+      "companyName": "Tech Analytics",
+      "location": "Madrid, Spain",
+      "companySize": "201-500",
+      "category": "product",
+      "industry": "Healthcare",
+      "establishedYear": 2012,
+      "logo": "https://cdn-icons-png.flaticon.com/512/916/916771.png"
+    }
+  ]
+}
