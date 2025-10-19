@@ -1,5 +1,4 @@
 import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
 import { useSearch } from "@/context/SearchContext";
 import { useState } from "react";
 import { Search } from "lucide-react";
