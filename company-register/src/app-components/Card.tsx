@@ -1,6 +1,5 @@
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
   CardFooter,
@@ -28,16 +27,16 @@ export default function CompanyCard({value}:CardProps) {
     <Card>
       <CardHeader>
         <div className="flex items-center gap-2">
-           <img src={value.logo} alt="company-logo" className="h-7 w-7"/>
-           <CardTitle>{value?.companyName}</CardTitle>
+           <img src={value.logo} alt="company-logo" className="h-[2vw] w-[2vw]"/>
+           <CardTitle className="text-[1.5vw]">{value?.companyName}</CardTitle>
         </div>
-        <CardDescription>{value.industry}</CardDescription>
+        <CardDescription className="text-[1vw]">{value.industry}</CardDescription>
       </CardHeader>
       <CardContent>
-        <p>{value.location}</p>
+        <p className="text-[1.15vw]">{value.location}</p>
       </CardContent>
-      <CardFooter className="self-center sm:text-sm">
-        <Button className="sm:text-sm">View more details</Button>
+      <CardFooter className="self-center">
+        <button className="h-[auto] w-[auto] text-[1vw] max-sm:text-[0.5vw] p-[0.5vw] bg-[#783594] text-white">View more details</button>
       </CardFooter>
     </Card>
   );

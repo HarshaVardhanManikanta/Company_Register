@@ -52,10 +52,10 @@ export default function FilterModal() {
     <div>
         <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button className="bg-gray-600 flex items-center gap-2">
-          <Filter className="w-5 h-5" />
-          Filter Companies
-        </Button>
+        <button className="flex items-center justify-center gap-2 h-[auto] w-[auto] text-[1vw] p-[0.5vw] bg-gray-700 text-white">
+          <Filter className="w-[1vw] h-[1vw]" />
+          <p className="text-[1vw]">Filter Companies</p>
+        </button>
       </DialogTrigger>
       <DialogContent className="max-w-lg h-100 text-gray-700 overflow-y-auto">
         <DialogHeader>

@@ -1,52 +1,3 @@
-// import "./App.css";
-// import { useEffect, useState } from "react";
-// import Header from "./app-components/Header";
-// import CompanyCard from "./app-components/Card";
-// import { Button } from "./components/ui/button";
-// import { Filter } from "lucide-react";
-// import { Spinner } from "./components/ui/spinner";
-// import type { Company } from "./app-components/Card";
-
-// function App() {
-//   const [loading, setLoading] = useState(true);
-//   const [companyData, setCompanyData] = useState<Company[]>([]);
-
-//  useEffect(() => {
-//   const getCompanyData = async () => {
-//     const response = await fetch("/db.json");
-//     const result:object = await response.json();
-//     setCompanyData(result.companies);
-//     setLoading(false);
-//   };
-
-//   getCompanyData();
-// }, []);
-//   return (
-//     <>
-//       <Header />
-//       <main className="mt-5 mb-[10em]">
-//         <div className="flex items-center justify-between px-[3em] py-2">
-//           <h3 className="text-[1.5em]">Company Details</h3>
-//           <Button className="bg-gray-600">
-//             <Filter className="w-5 h-5" />
-//             Filter Companies
-//           </Button>
-//         </div>
-//         {
-//           loading ? <Spinner className="size-15 m-auto relative top-[150px] text-gray-600"/> : <div className="grid grid-cols-4 mx-2">
-//          {
-//           companyData.map((item:Company)=><CompanyCard key={item?.id} value={item}/>)
-//          }
-//         </div>
-//         }
-//       </main>
-//     </>
-//   );
-// }
-
-// export default App;
-
-
 import "./App.css";
 import { useEffect, useState, useMemo } from "react";
 import Header from "./app-components/Header";
@@ -114,12 +65,8 @@ function App() {
       <Header />
       <main className="mt-5 mb-[10em]">
         <div className="flex items-center justify-between px-[3em] py-2">
-          <h3 className="text-[1.5em]">Company Details</h3>
+          <h3 className="text-[1.75vw]">Company Details</h3>
           <FilterModal/>
-          {/* <Button className="bg-gray-600">
-            <Filter className="w-5 h-5" />
-            Apply Filters
-          </Button> */}
         </div>
 
         {loading ? (
@@ -130,7 +77,7 @@ function App() {
               <CompanyCard key={item.id} value={item} />
             ))
             }
-          </div> : <div className="flex m-auto relative top-[150px] items-center justify-center bg-red-200"><p className="m-auto text-gray-700">No Results Available</p></div>
+          </div> : <div className="flex m-auto relative top-[150px] items-center justify-center bg-red-200"><p className="m-auto text-[1vw] text-gray-700">No Results Available</p></div>
         )}
       </main>
     </>

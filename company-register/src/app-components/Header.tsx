@@ -13,12 +13,12 @@ export default function Header() {
   };
   return (
     <header className="bg-white border-b border-gray-300 flex items-center justify-between p-4 w-full ">
-      <h3 className="text-[2em] text-[#783594] font-bold">OrgRegister</h3>
-      <div className="flex items-center gap-4">
-        <div className="relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 w-5 h-5" />
+      <h3 className="text-[2vw] text-[#783594] font-bold">OrgRegister</h3>
+      <div className="flex items-center gap-4 justify-center">
+        <div className="relative flex items-center">
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 w-[1vw] h-[1vw]" />
           <Input
-            className="pl-10 pr-4 py-2 w-[250px] text-gray-800 border border-gray-300 focus-visible:ring-[#783594] rounded-md"
+            className="pl-10 pr-4 py-2 w-[auto] h-[auto] text-[1vw] text-gray-800 focus-visible:ring-[#783594] rounded-md"
             type="text"
             placeholder="Enter company name"
             value={inputValue}
@@ -26,9 +26,9 @@ export default function Header() {
             onKeyDown={(e) => e.key === "Enter" && handleSearch()}
           />
         </div>
-        <Button variant="default" type="button" onClick={handleSearch}>
-          Search
-        </Button>
+        <button className="h-[auto] w-[auto] text-[1vw] p-[0.5vw] bg-[#783594] text-white" type="button" onClick={handleSearch}>
+          <p>Search</p>
+        </button>
       </div>
     </header>
   );
