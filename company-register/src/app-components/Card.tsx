@@ -23,20 +23,17 @@ type CardProps = {
 }
 export default function CompanyCard({value}:CardProps) {
   return (
-    <Card>
+    <Card className="max-sm:w-[50%]">
       <CardHeader>
         <div className="flex items-center gap-2">
-           <img src={value.logo} alt="company-logo" className="h-[2vw] w-[2vw]"/>
-           <CardTitle className="text-[1.5vw]">{value?.companyName}</CardTitle>
+           <img src={value.logo} alt="company-logo" className="h-[2vw] w-[2vw] max-sm:h-[4vw] max-sm:w-[4vw]"/>
+           <CardTitle className="text-[1.5vw] max-sm:text-[3vw]">{value?.companyName}</CardTitle>
         </div>
-        <CardDescription className="text-[1vw]">{value.industry}</CardDescription>
+        <CardDescription className="text-[1vw] max-sm:text-[2vw]">{value.industry}</CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-[1.15vw]">{value.location}</p>
+        <p className="text-[1.15vw] max-sm:text-[2vw]">{value.location}</p>
       </CardContent>
-      <CardFooter className="self-center">
-        <button className="h-[auto] w-[auto] text-[1vw] max-sm:text-[0.5vw] p-[0.5vw] bg-[#783594] text-white">View more details</button>
-      </CardFooter>
     </Card>
   );
 }

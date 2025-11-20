@@ -63,21 +63,21 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mt-5 mb-[10em]">
+      <main className="mt-[10%] max-sm:mt-[16%] mb-[10em]">
         <div className="flex items-center justify-between px-[3em] py-2">
-          <h3 className="text-[1.75vw]">Company Details</h3>
+          <h3 className="text-[1.75vw] max-sm:text-[4vw]">Company Details</h3>
           <FilterModal/>
         </div>
 
         {loading ? (
           <Spinner className="size-15 m-auto relative top-[150px] text-gray-600" />
         ) : (
-          filteredCompanies.length>0 ? <div className="grid grid-cols-4 mx-2">
+          filteredCompanies.length>0 ? <div className="grid grid-cols-4 mx-2 max-sm:grid-cols-1 max-sm:m-auto max-md:grid-cols-2 max-sm:place-items-center">
             {filteredCompanies.map((item) => (
               <CompanyCard key={item.id} value={item} />
             ))
             }
-          </div> : <div className="flex m-auto relative top-[150px] items-center justify-center bg-red-200"><p className="m-auto text-[1vw] text-gray-700">No Results Available</p></div>
+          </div> : <div className="flex m-auto relative top-[150px] items-center justify-center bg-red-200 p-2"><p className="m-auto text-[1vw] text-gray-700 max-sm:text-[2.5vw]">No Results Available</p></div>
         )}
       </main>
     </>
